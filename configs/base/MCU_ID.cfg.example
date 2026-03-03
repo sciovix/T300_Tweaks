@@ -1,0 +1,18 @@
+# ============================================================================
+# MCU_ID.cfg - Main MCU Serial Configuration
+# ============================================================================
+# Copy this file to MCU_ID.cfg and replace the serial path below with your
+# printer's actual MCU serial ID.
+#
+# To find your serial ID, SSH into your printer and run:
+#   ls /dev/serial/by-id/
+#
+# The output will look something like:
+#   usb-Klipper_stm32f401xc_XXXXXXXXXXXXXXXXXXXX-if00
+#
+# Set the full path as the serial value below, e.g.:
+#   serial: /dev/serial/by-id/usb-Klipper_stm32f401xc_XXXXXXXXXXXXXXXXXXXX-if00
+# ============================================================================
+
+[mcu]
+serial: /dev/serial/by-id/TODO: replace with your serial ID from `ls /dev/serial/by-id/`
